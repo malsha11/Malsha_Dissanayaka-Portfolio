@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db31482cc5b309b94c61df4efc447d50",
+    "revision": "9fe9dc0364a39af25840451c6231fd8e",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "20340b1679d1fb957cb1",
+    "revision": "1ebf4d20322a457c75cc",
     "url": "/static/css/main.1bd6e36f.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.2c5d20b6.chunk.js"
   },
   {
-    "revision": "20340b1679d1fb957cb1",
-    "url": "/static/js/main.892098f5.chunk.js"
+    "revision": "1ebf4d20322a457c75cc",
+    "url": "/static/js/main.1d3a7555.chunk.js"
   },
   {
     "revision": "3820acf0ff4da4021d86",
@@ -80,10 +80,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "59f169103ff613c7f33707f23ca700a7",
-    "url": "/static/media/MyProfilePhoto.59f16910.png"
-  },
-  {
     "revision": "4f1a61e2570e82efc9cfe4318e2c2d6a",
     "url": "/static/media/NewsApp.4f1a61e2.png"
   },
@@ -106,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e79c639294c805688be731921368c8f8",
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
+  },
+  {
+    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
+    "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
