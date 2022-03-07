@@ -50,7 +50,7 @@ const skillsSection = {
     ),
     emoji("⚡ I'm well trained in Graphic design and Adobe Photoshop."),
     emoji(
-      "⚡ I'm training about UI/UX design"
+      "⚡ I'm passionate about UI/UX design"
     )
   ],
 
@@ -202,25 +202,48 @@ const workExperiences = {
     {
       role: "AIESECer",
       company: "AIESEC",
-      companylogo: require("./assets/images/Aiesec.png"),
+      companylogo: require("./assets/images/AiesecLogo.png"),
       date: "May 2021 – Present",
       desc: "I am an AIESECer- Team Leader Marketing - Jayewardenepura Sales Force at AIESEC Sri Lanka. As well Worked as a Team Member of Business to Business- Outgoing Global Exchange - Business to Customer in AIESECinUSJ Collaboration between entities - entities around the globe for exchange partners to work with projects and achieve the targets within the term.",
-     
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.credly.com/badges/a4a59a09-0d3a-439a-8d3d-0a08fe35d6a6?source/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
+    
     {
       role: "Graphic Designer",
       company: "Japura FOSS Community",
       companylogo: require("./assets/images/FOSS_Logo.jpg"),
       date: "December 2021 – Present",
-      desc: "Created design theme and graphics for marketing and sales. Collaborated with creative team to design and produced.Delivered design solutions under extremely tight deadlines. I have gathered enormous efficiency in various editing tools that are helpful to creating any strong design."
+      desc: "Created design theme and graphics for marketing and sales. Collaborated with creative team to design and produced.Delivered design solutions under extremely tight deadlines. I have gathered enormous efficiency in various editing tools that are helpful to creating any strong design.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.credly.com/badges/a4a59a09-0d3a-439a-8d3d-0a08fe35d6a6?source/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
+
     {
       role: "Internship Trainer",
       company: "People's Bank",
       companylogo: require("./assets/images/PeoplesBankLogo.jpg"),
       date: "May 2018 – May 2019",
-      desc: "This Traning helped to improve a good amount of experience in the Banking industry as well it Improved my soft skills and personality. I got a chance to connect with industry experts and alumni, and this helped my career and grow my professional network."
+      desc: "This Traning helped to improve a good amount of experience in the Banking industry as well it Improved my soft skills and personality. I got a chance to connect with industry experts and alumni, and this helped my career and grow my professional network.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.credly.com/badges/a4a59a09-0d3a-439a-8d3d-0a08fe35d6a6?source/"
+        }
+        //  you can add extra buttons here.
+      ]
     }
+
   ]
 };
 
@@ -239,7 +262,7 @@ const bigProjects = {
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
   projects: [
     {
-      image: require("./assets/images/CiscoCetificate.jpg"),
+      image: require("./assets/images/Cetificate01.png"),
       projectName: "Introduction to Cybersecurity",
       projectDesc: "Cyber Best Practices Cybersecurity, Network Vulnerabilities, Privacy And Data Confidentiality, Threat Detection, impact of cyber attacks on industries, and why cybersecurity is a growing profession,the global implications of cyber threats",
       footerLink: [
@@ -251,7 +274,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Cetificate02.jpeg"),
+      image: require("./assets/images/Cetificate02.png"),
       projectName: "Arduio",
       projectDesc: "Basic Introduction to the use of Micro-contollers in Robotics & Electronics, Introduction to Sketch and the C Programming Language, Syntax of Coding in Arduino, Variables in C Language with Arduino and many more..",
       footerLink: [
@@ -263,7 +286,7 @@ const bigProjects = {
     },
 
     {
-      image: require("./assets/images/Cetificate03.jpg"),
+      image: require("./assets/images/Cetificate03.png"),
       projectName: "Web Development",
       projectDesc: "Build websites with HTML & CSS Build backend servers & APIs with Node and Express, Work with NoSQL databases like MongoDB, Build full-stack web apps with Facebook's React Framework, Build mobile-friendly websites with Bootstrap 4 & CSS",
       footerLink: [
@@ -290,7 +313,7 @@ const achievementSection = {
       title: "Coffee Table Book",
       subtitle:
         "This Coffee table book's page content consists of photographs and illustrations with small areas of well-crafted typography, as opposed to long prose..",
-      image: require("./assets/images/CoffeTableBook.jpg"),
+      image: require("./assets/images/CoffeTableBook.png"),
       footerLink: [
         {
           name: "View Project",
@@ -302,8 +325,8 @@ const achievementSection = {
     {
       title: "News App UI Design",
       subtitle:
-        "Design a attractive UI Design for News Mobile Application. I chose this layout because it helps user to read the content easily following Z -pattern",
-      image: require("./assets/images/NewsAppUi.png"),
+        "Design a attractive UI Design for News Mobile Application I chose this layout because it helps user to read the content easily following Z -pattern",
+      image: require("./assets/images/NewsAppUIDesign.png"),
       footerLink: [
         {
           name: "View Project",
@@ -313,10 +336,10 @@ const achievementSection = {
     },
 
     {
-      title: "Edu Planner Institue Web Site",
+      title: "Edu Planner Web Site",
       subtitle:
-        "This Edu Planner Institue Web Site design using Html,css and Java Script.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "This Edu Planner Institue Web Site is usefull for any education institue to easily done daily activites.This website designed using Html,css and JS.",
+      image: require("./assets/images/EduPlannerWeb.png"),
       footerLink: [
         {
           name: "View Web Site",
@@ -333,8 +356,8 @@ const achievementSection = {
     {
       title: "Library Management System",
       subtitle:
-        "This Library Management System Create using Java programming Language and SQl use for Backend Development.",
-      image: require("./assets/images/Web.png"),
+        "This Library Management System Create using Java Language and SQl use for Backend Development.",
+      image: require("./assets/images/LibraryManagementSystem.png"),
       footerLink: [
         {
           name: "View Project",
@@ -346,7 +369,7 @@ const achievementSection = {
     {
       title: "Exam Management System",
       subtitle:
-        "This Exam Management System Create using Python programming Language and SQl use for Backend Development.",
+        "This Exam Management System Created using Python and SQl use for Backend Development.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
@@ -358,7 +381,7 @@ const achievementSection = {
 
     {
       title: "NewsMart News Mobile App",
-      subtitle: "This News Mobile Application Create using React-Native,Java Script and Firebase",
+      subtitle: "This News Mobile Application Created using React-Native, Java Script, NewsApi and Firebase",
       image: require("./assets/images/NewsApp.png"),
       footerLink: [
         {
@@ -395,7 +418,7 @@ const blogSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Talks Sections
+// Resume Sections
 
 const talkSection = {
   title: "Resume",
@@ -439,7 +462,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twittert", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false// Set true to display this section, defaults to false
 };
 
 export {
