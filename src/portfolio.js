@@ -12,10 +12,9 @@ const illustration = {
 
 const greeting = {
   username: "Malsha Dissnayaka",
-  title: "Hi, I'm Malsha",
-  subTitle: emoji(
-    "AIESECer | The Team Leader Marketing - Jayewardenepura Sales Force at AIESEC Sri Lanka & A IT student passionate about programming and design at University of Sri Jayewardhenepura."
-  ),
+  title: "Hi, I'm Malsha Dissanayaka",
+  subTitle:
+    "Frontend Developer | UI UX Designer | I am an undergraduate of BSc (Hons) in Information Technology from University of Sri Jayewardenepura. I take pride in my ability to create visually appealing and user-friendly interfaces that deliver an exceptional user experience with a focus on frontend development and UI/UX design. I am a fast learner, always seeking to improve and a responsible team player with on-time deliveries.",
   resumeLink:
     "https://drive.google.com/file/d/1EY_qICDjkJYsxRScapx-G92IXh13jG-p/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -26,12 +25,13 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/MalshaDissanayaka11",
   linkedin: "https://www.linkedin.com/in/malsha-dissanayaka-482852212",
-  gmail: "admsewwandi@gmail.com",
-  quora: "https://www.quora.com/profile/Malsha-Dissanayaka?ch=10&oid=1551460455&share=90288241&srid=uytGLB&target_type=user",
+  gmail: "admalsha11@gmail.com",
+  quora:
+    "https://www.quora.com/profile/Malsha-Dissanayaka?ch=10&oid=1551460455&share=90288241&srid=uytGLB&target_type=user",
   facebook: "https://www.facebook.com/malsha.dissanayaka.79",
   medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/16576845/malsha-dissanayaka",
-  instagram:"https://www.instagram.com/malsha.dissanayaka.79",
+  instagram: "https://www.instagram.com/malsha.dissanayaka.79",
   twitter: "https://twitter.com/ADMSewwandi1",
   kaggle: "https://www.kaggle.com/malshadissanayaka",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -45,13 +45,10 @@ const skillsSection = {
   title: "My Skills",
   subTitle: "I'M PASSIONATE ABOUT PROGRAMMING AND DESIGN.",
   skills: [
-    emoji(
-      "⚡ Currently I'm learning about web development both back-end and front-end."
-    ),
-    emoji("⚡ I'm well trained in Graphic design and Adobe Photoshop."),
-    emoji(
-      "⚡ I'm passionate about UI/UX design"
-    )
+    "⚡ I have gained expertise in cutting-edge front-end technologies such as Javascript, ReactJS, HTML, CSS.",
+    "⚡ Currently I'm learning about web development both back-end and front-end.",
+    "⚡ I have learn many IT-related fields such as programming, designing, IOT, Mobile Application Development, HCI, Cybersecurity, QA, BA, Machine learning, AI, Network, Software project management etc.",
+    "⚡ I am an AIESECer and, I have contributed to many projects during my university life."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -59,75 +56,74 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html",
+      skillName: "Html",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "Css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
 
     {
-      skillName: "Graphic Design",
-      fontAwesomeClassname: "fa-brands fa-java"
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
     },
-    
+
     {
-      skillName: "nodejs",
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+
+    {
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-  
+
     {
       skillName: "Java",
-      fontAwesomeClassname: "fa-solid fa-laptop-code"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "sql-database",
+      skillName: "Sql",
       fontAwesomeClassname: "fas fa-database"
     },
-    
+
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Adobe Photoshop",
-      fontAwesomeClassname: "fa-brands fa-java"
+      skillName: "Photoshop",
+      fontAwesomeClassname: "fas fa-pen-nib"
     },
 
     {
       skillName: "Figma",
-      fontAwesomeClassname: "fa-brands fa-java"
+      fontAwesomeClassname: "fab fa-figma"
+    },
+
+    {
+      skillName: "Mongo-db",
+      fontAwesomeClassname: "fas fa-database"
     },
 
     {
       skillName: "Git Hub",
-      fontAwesomeClassname: "fa-solid fa-code-branch"
-    },
-    
-    {
-      skillName: "Vs Code",
-      fontAwesomeClassname: "fa-brands fa-java"
-    },
-
-    {
-      skillName: "Adobe Illustrator",
-      fontAwesomeClassname: "fa-brands fa-java"
-    },
-
+      fontAwesomeClassname: "fab fa-github"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -141,26 +137,45 @@ const educationInfo = {
       schoolName: "University of Sri Jayewardenepura",
       logo: require("./assets/images/usjp-logo.png"),
       subHeader: "Bachelor of Science Honours Information Technology",
-      duration: "March 2019 - Present",
+      duration: "March 2020 - Present",
       desc: "Get excellent knowledge about IT Field.",
       descBullets: [
-        "Wed design.",
+        "Design.",
         "Programming",
         "Networking and other IT main fields"
       ]
-      
+    },
+    {
+      schoolName: "DevTown",
+      logo: require("./assets/images/Devtown.jfif"),
+      subHeader: "Web design Development",
+      duration: "August 2021 - Present",
+      desc: "Knowledge of Web design Development & Other IT related fields.",
+      descBullets: [
+        "Basic of web development.",
+        "Instagram clone using HTML and CSS.",
+        "Back-end web development using Javascript, Node. JS & Express.",
+        "Cloud computing with AWS."
+      ]
     },
     {
       schoolName: "Cisco Network Acadamy",
       logo: require("./assets/images/ciscologo.png"),
       subHeader: "Introduction to Cybersecurity",
-      duration: "August 2021 - Present",
+      duration: "August 2021 - 2022",
       desc: " introductory knowledge of cybersecurity.",
       descBullets: [
         "The impact of cyber attacks on industries.",
         "Why cybersecurity is a growing profession.",
         "Cisco’s approach to threat detection and defense."
       ]
+    },
+    {
+      schoolName: "Mr/Morawka Keerthi Abeywickrama National School",
+      logo: require("./assets/images/School_logo.jfif"),
+      subHeader: "Ordinary Level & Advanced Level",
+      duration: "August 2011 - 2018",
+      descBullets: ["Ordinary Level -2015.", "Advanced Level -2018."]
     }
   ]
 };
@@ -171,25 +186,47 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Html/CSS", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Java Script",
       progressPercentage: "50%"
     },
     {
-      Stack: "Programming",
+      Stack: "React",
+      progressPercentage: "58%"
+    },
+
+    {
+      Stack: "Bootstrapt",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Sql",
+      progressPercentage: "70%"
+    },
+
+    {
+      Stack: "Firebase",
       progressPercentage: "60%"
     },
     {
-      Stack: "UI/UX Design",
-      progressPercentage: "60%"
-    },
-    {
-      Stack: "Graphic Design",
+      Stack: "Python",
       progressPercentage: "85%"
     },
+    {
+      progressPercentage: "60%"
+    },
+
+    {
+      Stack: "Figma",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Photoshop",
+      progressPercentage: "65%"
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -213,7 +250,7 @@ const workExperiences = {
         //  you can add extra buttons here.
       ]
     },
-    
+
     {
       role: "Graphic Designer",
       company: "Japura FOSS Community",
@@ -243,7 +280,6 @@ const workExperiences = {
         //  you can add extra buttons here.
       ]
     }
-
   ]
 };
 
@@ -259,12 +295,14 @@ const openSource = {
 
 const bigProjects = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
   projects: [
     {
       image: require("./assets/images/Cetificate01.png"),
       projectName: "Introduction to Cybersecurity",
-      projectDesc: "Cyber Best Practices Cybersecurity, Network Vulnerabilities, Privacy And Data Confidentiality, Threat Detection, impact of cyber attacks on industries, and why cybersecurity is a growing profession,the global implications of cyber threats",
+      projectDesc:
+        "Cyber Best Practices Cybersecurity, Network Vulnerabilities, Privacy And Data Confidentiality, Threat Detection, impact of cyber attacks on industries, and why cybersecurity is a growing profession,the global implications of cyber threats",
       footerLink: [
         {
           name: "Visit Website",
@@ -276,7 +314,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Cetificate02.png"),
       projectName: "Arduio",
-      projectDesc: "Basic Introduction to the use of Micro-contollers in Robotics & Electronics, Introduction to Sketch and the C Programming Language, Syntax of Coding in Arduino, Variables in C Language with Arduino and many more..",
+      projectDesc:
+        "Basic Introduction to the use of Micro-contollers in Robotics & Electronics, Introduction to Sketch and the C Programming Language, Syntax of Coding in Arduino, Variables in C Language with Arduino and many more..",
       footerLink: [
         {
           name: "Visit Website",
@@ -288,7 +327,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Cetificate03.png"),
       projectName: "Web Development",
-      projectDesc: "Build websites with HTML & CSS Build backend servers & APIs with Node and Express, Work with NoSQL databases like MongoDB, Build full-stack web apps with Facebook's React Framework, Build mobile-friendly websites with Bootstrap 4 & CSS",
+      projectDesc:
+        "Build websites with HTML & CSS Build backend servers & APIs with Node and Express, Work with NoSQL databases like MongoDB, Build full-stack web apps with Facebook's React Framework, Build mobile-friendly websites with Bootstrap 4 & CSS",
       footerLink: [
         {
           name: "Visit Website",
@@ -304,9 +344,8 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title:("My Projects"),
-  subtitle:
-    "THIS IS MY PROJECTS",
+  title: "My Projects",
+  subtitle: "THIS IS MY PROJECTS",
 
   achievementsCards: [
     {
@@ -318,8 +357,7 @@ const achievementSection = {
         {
           name: "View Project",
           url: "https://www.behance.net/gallery/138313341/Coffee-Table-Book-Design"
-        },
-        
+        }
       ]
     },
     {
@@ -381,7 +419,8 @@ const achievementSection = {
 
     {
       title: "NewsMart News Mobile App",
-      subtitle: "This News Mobile Application Created using React-Native, Java Script, NewsApi and Firebase",
+      subtitle:
+        "This News Mobile Application Created using React-Native, Java Script, NewsApi and Firebase",
       image: require("./assets/images/NewsApp.png"),
       footerLink: [
         {
@@ -422,15 +461,14 @@ const blogSection = {
 
 const talkSection = {
   title: "Resume",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY RESUME WITH YOU."
-  ),
+  subtitle: emoji("I LOVE TO SHARE MY RESUME WITH YOU."),
 
   talks: [
     {
       title: "This is my resume.",
       subtitle: "You can Downlord it here.",
-      slides_url: "https://drive.google.com/file/d/1EY_qICDjkJYsxRScapx-G92IXh13jG-p/view?usp=sharing",
+      slides_url:
+        "https://drive.google.com/file/d/1EY_qICDjkJYsxRScapx-G92IXh13jG-p/view?usp=sharing"
       //event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
@@ -441,7 +479,7 @@ const talkSection = {
 
 const podcastSection = {
   title: "Resume",
-  subtitle: "This is My resume. You can check it.",
+  subtitle: "This is My resume. You can check it."
 
   // Please Provide with Your Podcast embeded Link
   /*podcast: [
@@ -452,8 +490,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "just want to say hi? My Inbox is open for all.",
+  subtitle: "just want to say hi? My Inbox is open for all.",
   number: "+94-761898855",
   email_address: "admalsha11@gmail.com"
 };
@@ -462,7 +499,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twittert", //Replace "twitter" with your twitter username without @
-  display: false// Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
