@@ -14,7 +14,7 @@ const greeting = {
   username: "Malsha Dissnayaka",
   title: "Hi, I'm Malsha Dissanayaka",
   subTitle:
-    "Web Developer | UI UX Developer | I am an undergraduate of BSc (Hons) in Information Technology from University of Sri Jayewardenepura. I take pride in my ability to create visually appealing and user-friendly interfaces that deliver an exceptional user experience with a focus on frontend development and UI/UX design. I am a fast learner, always seeking to improve and a responsible team player with on-time deliveries.",
+    "I am an undergraduate of BSc (Hons) in Information Technology from University of Sri Jayewardenepura. As an undergraduate, I study a variety of subjects such as programming, designing, IOT, AR/VR, Mobile Application Development, Cybersecurity, QA, BA, Machine learning, Networking, Software project management and so on. I am a fast learner, always seeking to improve and a responsible team player with on-time deliveries.",
   resumeLink:
     "https://drive.google.com/file/d/1kRB2TOXBAVqrt1WENPp-5Y2wgJVn36ao/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,7 +48,7 @@ const skillsSection = {
   skills: [
     "⚡ I have gained expertise in cutting-edge front-end technologies such as Javascript, ReactJS, HTML, CSS.",
     "⚡ Currently I'm learning about web development both back-end and front-end.",
-    "⚡ I have learn many IT-related fields such as programming, designing, IOT, AR/VR, Mobile Application Development, , Cybersecurity, QA, BA, Machine learning, AI, Network, Software project management etc.",
+    "⚡ I have been involved in the education management domain and am willing to explore new technologies and fields ",
     "⚡ During my university life, I have actively contributed to numerous academic and non-academic projects, showcasing my dedication to both my studies and personal growth.",
     "⚡ As an AIESECer, I have contributed to numerous projects during my involvement with the organization. Throughout my time with AIESECinUSJ, I have actively participated in and made meaningful contributions to various initiatives."
   ],
@@ -154,7 +154,7 @@ const educationInfo = {
     {
       schoolName: "DevTown",
       logo: require("./assets/images/Devtown.jfif"),
-      subHeader: "Web design Development",
+      subHeader: "Web design & Development",
       duration: "August 2021 - Present",
       desc: "Knowledge of Web design Development & Other IT related fields.",
       descBullets: [
@@ -192,47 +192,51 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Html/CSS", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Team Work", //Insert stack or technology you have experience in
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Java Script",
-      progressPercentage: "50%"
+      Stack: "Communication",
+      progressPercentage: "100%"
     },
     {
-      Stack: "React",
-      progressPercentage: "58%"
-    },
-
-    {
-      Stack: "Bootstrapt",
-      progressPercentage: "50%"
-    },
-    {
-      Stack: "Sql",
-      progressPercentage: "70%"
+      Stack: "Problem-Solving",
+      progressPercentage: "100%"
     },
 
     {
-      Stack: "Firebase",
-      progressPercentage: "60%"
+      Stack: "Time Management",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Python",
-      progressPercentage: "85%"
-    },
-    {
-      Stack: "Pythonnnnn",
-      progressPercentage: "60%"
+      Stack: "Customer Service",
+      progressPercentage: "100%"
     },
 
     {
-      Stack: "Figma",
-      progressPercentage: "85%"
+      Stack: "Multitasking",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Photoshop",
-      progressPercentage: "65%"
+      Stack: "Creativity",
+      progressPercentage: "100%"
+    },
+    {
+      Stack: "Leadership",
+      progressPercentage: "100%"
+    },
+
+    {
+      Stack: "Project Management",
+      progressPercentage: "100%"
+    },
+    {
+      Stack: "Quality Assurance",
+      progressPercentage: "100%"
+    },
+    {
+      Stack: "Cybersecurity",
+      progressPercentage: "100%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -259,10 +263,10 @@ const workExperiences = {
     },
 
     {
-      role: "Graphic Designer",
-      company: "Japura FOSS Community",
+      role: "Graphic Designer Internship",
+      company: "ServerClub.lk (Pvt) Ltd",
       companylogo: require("./assets/images/FOSS_Logo.jpg"),
-      date: "December 2021 – Present",
+      date: "Mar 2022 – May 2022 ",
       desc: "Created design theme and graphics for marketing and sales. Collaborated with creative team to design and produced.Delivered design solutions under extremely tight deadlines. I have gathered enormous efficiency in various editing tools that are helpful to creating any strong design.",
       footerLink: [
         {

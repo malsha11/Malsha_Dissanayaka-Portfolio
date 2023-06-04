@@ -1,13 +1,13 @@
 @import "../../_globalColor";
 
 .meter {
-  height: 15px;
+  height: 1px; // Bar eka neti karanna metanata -10 wage danna
   position: relative;
   background: $progressBarBackground;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
-  width:70%;
+  width:60%;
 }
 .meter > span {
   display: block;
@@ -25,12 +25,13 @@
 }
 .skill-bars {
   font-size: 28px;
-  width: 10%;
+  width: 20%;
+  
 }
 .skills-container {
   display: flex;
   width: 90%;
-  padding: 20px 10px;
+  padding: 20px 20px;
   margin: 0px auto;
   margin-top: 2rem;
 }
