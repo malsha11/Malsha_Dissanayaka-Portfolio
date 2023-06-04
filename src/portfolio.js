@@ -265,9 +265,9 @@ const workExperiences = {
     {
       role: "Graphic Designer Internship",
       company: "ServerClub.lk (Pvt) Ltd",
-      companylogo: require("./assets/images/FOSS_Logo.jpg"),
+      companylogo: require("./assets/images/serverclub-logo-white.jfif"),
       date: "Mar 2022 – May 2022 ",
-      desc: "Created design theme and graphics for marketing and sales. Collaborated with creative team to design and produced.Delivered design solutions under extremely tight deadlines. I have gathered enormous efficiency in various editing tools that are helpful to creating any strong design.",
+      desc: "As an Intern Graphic Designer, I did the following activities: Designing various marketing and promotional materials such as flyers, brochures and social media posts, Assisting with the production of graphics for websites and other digital platforms.",
       footerLink: [
         {
           name: "Visit Website",
