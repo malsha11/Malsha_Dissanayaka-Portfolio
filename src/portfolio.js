@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "I am an undergraduate of BSc (Hons) in Information Technology from University of Sri Jayewardenepura. As an undergraduate, I study a variety of subjects such as programming, designing, IOT, AR/VR, Mobile Application Development, Cybersecurity, QA, BA, Machine learning, Networking, Software project management and so on. I am a fast learner, always seeking to improve and a responsible team player with on-time deliveries.",
   resumeLink:
-    "https://drive.google.com/file/d/1kRB2TOXBAVqrt1WENPp-5Y2wgJVn36ao/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1yYU-L81Tkm-s-fz0XV6TvCBSsFHMRggL/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -263,7 +263,7 @@ const workExperiences = {
     },
 
     {
-      role: "Graphic Designer Internship",
+      role: "Graphic Designer Intern",
       company: "ServerClub.lk (Pvt) Ltd",
       companylogo: require("./assets/images/serverclub-logo-white.jfif"),
       date: "Mar 2022 – May 2022 ",
@@ -305,46 +305,102 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("My Projects"),
+  subtitle: "Opern Source Projects that I have done !",
   projects: [
     {
-      image: require("./assets/images/Cetificate01.png"),
-      projectName: "Introduction to Cybersecurity",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      projectName: "ExamNet Exam Management System",
       projectDesc:
-        "Cyber Best Practices Cybersecurity, Network Vulnerabilities, Privacy And Data Confidentiality, Threat Detection, impact of cyber attacks on industries, and why cybersecurity is a growing profession,the global implications of cyber threats",
+        "The system provides a user-friendly interface for administrators, teachers, and students to effectively manage and conduct exams. Technologies: Python and SQl",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://www.credly.com/badges/a4a59a09-0d3a-439a-8d3d-0a08fe35d6a6?source/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/Cetificate02.png"),
-      projectName: "Arduio",
-      projectDesc:
-        "Basic Introduction to the use of Micro-contollers in Robotics & Electronics, Introduction to Sketch and the C Programming Language, Syntax of Coding in Arduino, Variables in C Language with Arduino and many more..",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://ii.lk/codecamp/"
+          name: "View Project",
+          url: "https://github.com/malsha11/Exam-Management-System"
         }
       ]
     },
 
     {
-      image: require("./assets/images/Cetificate03.png"),
-      projectName: "Web Development",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      projectName: "NewsMart Mobile App",
       projectDesc:
-        "Build websites with HTML & CSS Build backend servers & APIs with Node and Express, Work with NoSQL databases like MongoDB, Build full-stack web apps with Facebook's React Framework, Build mobile-friendly websites with Bootstrap 4 & CSS",
+        "NewsMart is a cutting-edge news mobile application that aims to revolutionize the way people consume news and stay informed. NewsMart provides an immersive and engaging news reading experience. Technologies: Html,Css,Js,React-native,firebase,NewsApi",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://www.cert.shapeai.tech/verify/ZVb2b"
+          name: "View Project",
+          url: "https://github.com/malsha11/NewsMart-News-Mobile-Application"
         }
+      ]
+    },
+
+    {
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      projectName: "FoodSpace Ordering Application (MERN) ",
+      projectDesc:
+        "This application allows customers to browse menus,place orders,make payments and allows the restaurant employees to manage the site content easily. Technologies: React Js,Mongo DB,Node Js,Express js",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/malsha11/MERN-FoodSpace-Food-Ordering-Web-Application"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/EduPlannerWeb.png"),
+      projectName: "Edu Planner Web Site",
+      projectDesc:
+        "Through the EduPlanner website, will help the student to explore courses, learn efficiently by gaining recourses and attending lectures online. Technologies: Html,Css,Js",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://ya6aaerl3cdig5bempju9g.on.drv.tw/Edu%20Planner%20Institute/"
+        },
+        {
+          name: "View Code",
+          url: "https://github.com/malsha11/Edu-Planner-Institute-Website"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/LibraryManagementSystem.png"),
+      projectName: "LibraGenius Library Management System",
+      projectDesc:
+        "This Library Management System Create using Java Language and SQl use for Backend Development.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/malsha11/Library_Management_system"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/NewsAppUIDesign.png"),
+      projectName: "News App UI Design",
+      projectDesc:
+        "Design a attractive UI Design for News Mobile Application I chose this layout because it helps user to read the content easily following Z -pattern.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://www.figma.com/file/kbN4wx3K23Nm80BKzwtA6r/NewsApp?node-id=0%3A1"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/CoffeTableBook.png"),
+      projectName: "Coffee Table Book",
+      projectDesc:
+        "This Coffee table book's page content consists of photographs and illustrations with small areas of well-crafted typography, as opposed to long prose.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://www.behance.net/gallery/138313341/Coffee-Table-Book-Design"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
@@ -355,88 +411,45 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: "My Projects",
-  subtitle: "THIS IS MY PROJECTS",
+  title: "Achievements And Certifications 🏆 ",
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Coffee Table Book",
+      title: "Introduction to Cybersecurity ",
       subtitle:
-        "This Coffee table book's page content consists of photographs and illustrations with small areas of well-crafted typography, as opposed to long prose..",
-      image: require("./assets/images/CoffeTableBook.png"),
+        ".Cyber Best Practices Cybersecurity, Network Vulnerabilities, Privacy And Data Confidentiality, Threat Detection, impact of cyber attacks on industries, and why cybersecurity is a growing profession,the global implications of cyber threats.",
+      image: require("./assets/images/Cetificate01.png"),
       footerLink: [
         {
-          name: "View Project",
-          url: "https://www.behance.net/gallery/138313341/Coffee-Table-Book-Design"
+          name: "View Certification",
+          url: "https://www.credly.com/badges/a4a59a09-0d3a-439a-8d3d-0a08fe35d6a6?source/"
         }
       ]
     },
     {
-      title: "News App UI Design",
+      title: "Arduio",
       subtitle:
-        "Design a attractive UI Design for News Mobile Application I chose this layout because it helps user to read the content easily following Z -pattern",
-      image: require("./assets/images/NewsAppUIDesign.png"),
+        "Basic Introduction to the use of Micro-contollers in Robotics & Electronics, Introduction to Sketch and the C Programming Language, Syntax of Coding in Arduino, Variables in C Language with Arduino and many more.",
+      image: require("./assets/images/Cetificate02.png"),
       footerLink: [
         {
-          name: "View Project",
-          url: "https://www.figma.com/file/kbN4wx3K23Nm80BKzwtA6r/NewsApp?node-id=0%3A1"
-        }
-      ]
-    },
-
-    {
-      title: "Edu Planner Web Site",
-      subtitle:
-        "This Edu Planner Institue Web Site is usefull for any education institue to easily done daily activites.This website designed using Html,css and JS.",
-      image: require("./assets/images/EduPlannerWeb.png"),
-      footerLink: [
-        {
-          name: "View Web Site",
-          url: "https://ya6aaerl3cdig5bempju9g-on.drv.tw/Edu%20Planner%20Institute/"
-        },
-
-        {
-          name: "View Code",
-          url: "https://github.com/MalshaDissanayaka11"
+          name: "View Certification",
+          url: "https://ii.lk/codecamp/"
         }
       ]
     },
 
     {
-      title: "Library Management System",
+      title: "Web Development",
       subtitle:
-        "This Library Management System Create using Java Language and SQl use for Backend Development.",
-      image: require("./assets/images/LibraryManagementSystem.png"),
+        "Build a web Application with HTML & CSS Build backend servers & APIs with Node and Express, Work with NoSQL databases like MongoDB, Build full-stack web apps with Facebook's React Framework, Build mobile-friendly websites with Bootstrap 4 & CSS.",
+      image: require("./assets/images/Cetificate03.png"),
       footerLink: [
         {
-          name: "View Project",
-          url: "https://github.com/MalshaDissanayaka11"
-        }
-      ]
-    },
-
-    {
-      title: "Exam Management System",
-      subtitle:
-        "This Exam Management System Created using Python and SQl use for Backend Development.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Project",
-          url: "https://github.com/MalshaDissanayaka11"
-        }
-      ]
-    },
-
-    {
-      title: "NewsMart News Mobile App",
-      subtitle:
-        "This News Mobile Application Created using React-Native, Java Script, NewsApi and Firebase",
-      image: require("./assets/images/NewsApp.png"),
-      footerLink: [
-        {
-          name: "View Project",
-          url: "https://github.com/MalshaDissanayaka11"
+          name: "View Cetification",
+          url: "https://www.cert.shapeai.tech/verify/ZVb2b"
         }
       ]
     }
@@ -479,7 +492,7 @@ const talkSection = {
       title: "Hey!. This is my resume.",
       subtitle: "You can Download it here.",
       slides_url:
-        "https://drive.google.com/file/d/1kRB2TOXBAVqrt1WENPp-5Y2wgJVn36ao/view?usp=sharing"
+        "https://drive.google.com/file/d/1yYU-L81Tkm-s-fz0XV6TvCBSsFHMRggL/view?usp=sharing"
       //event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
