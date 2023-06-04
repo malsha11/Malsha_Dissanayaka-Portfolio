@@ -14,22 +14,22 @@ const greeting = {
   username: "Malsha Dissnayaka",
   title: "Hi, I'm Malsha Dissanayaka",
   subTitle:
-    "Frontend Developer | UI UX Designer | I am an undergraduate of BSc (Hons) in Information Technology from University of Sri Jayewardenepura. I take pride in my ability to create visually appealing and user-friendly interfaces that deliver an exceptional user experience with a focus on frontend development and UI/UX design. I am a fast learner, always seeking to improve and a responsible team player with on-time deliveries.",
+    "Web Developer | UI UX Developer | I am an undergraduate of BSc (Hons) in Information Technology from University of Sri Jayewardenepura. I take pride in my ability to create visually appealing and user-friendly interfaces that deliver an exceptional user experience with a focus on frontend development and UI/UX design. I am a fast learner, always seeking to improve and a responsible team player with on-time deliveries.",
   resumeLink:
-    "https://drive.google.com/file/d/1EY_qICDjkJYsxRScapx-G92IXh13jG-p/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1kRB2TOXBAVqrt1WENPp-5Y2wgJVn36ao/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/MalshaDissanayaka11",
+  github: "https://github.com/malsha11",
   linkedin: "https://www.linkedin.com/in/malsha-dissanayaka-482852212",
   gmail: "admalsha11@gmail.com",
   quora:
     "https://www.quora.com/profile/Malsha-Dissanayaka?ch=10&oid=1551460455&share=90288241&srid=uytGLB&target_type=user",
   facebook: "https://www.facebook.com/malsha.dissanayaka.79",
-  medium: "https://medium.com/@saadpasta",
+  medium: "https://medium.com/@admalsha11",
   stackoverflow: "https://stackoverflow.com/users/16576845/malsha-dissanayaka",
   instagram: "https://www.instagram.com/malsha.dissanayaka.79",
   twitter: "https://twitter.com/ADMSewwandi1",
@@ -43,12 +43,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My Skills",
-  subTitle: "I'M PASSIONATE ABOUT PROGRAMMING AND DESIGN.",
+  subTitle:
+    "I possess a deep passion for the realms of programming and design,",
   skills: [
     "⚡ I have gained expertise in cutting-edge front-end technologies such as Javascript, ReactJS, HTML, CSS.",
     "⚡ Currently I'm learning about web development both back-end and front-end.",
-    "⚡ I have learn many IT-related fields such as programming, designing, IOT, Mobile Application Development, HCI, Cybersecurity, QA, BA, Machine learning, AI, Network, Software project management etc.",
-    "⚡ I am an AIESECer and, I have contributed to many projects during my university life."
+    "⚡ I have learn many IT-related fields such as programming, designing, IOT, AR/VR, Mobile Application Development, , Cybersecurity, QA, BA, Machine learning, AI, Network, Software project management etc.",
+    "⚡ During my university life, I have actively contributed to numerous academic and non-academic projects, showcasing my dedication to both my studies and personal growth.",
+    "⚡ As an AIESECer, I have contributed to numerous projects during my involvement with the organization. Throughout my time with AIESECinUSJ, I have actively participated in and made meaningful contributions to various initiatives."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -123,6 +125,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Git Hub",
       fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Selenium ",
+      fontAwesomeClassname: "fas fa-pen-nib"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -216,6 +222,7 @@ const techStack = {
       progressPercentage: "85%"
     },
     {
+      Stack: "Pythonnnnn",
       progressPercentage: "60%"
     },
 
@@ -442,16 +449,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://malshadissanayaka.blogspot.com/2022/02/myths-in-it-industry-in-modern-age-we.html",
-      title: "Myths in the IT Industry",
+      url: "https://medium.com/@admalsha11/front-end-developer-roadmap-for-2023-f811d9f80f71",
+      title: "Front-End Developer RoadMap for 2023",
       description:
-        "In the modern age we live in, technology is used on a daily basis. While we might take technology for granted, such as our smartphones and WiFi, we might, on occasion, stop and wonder how our devices actually work."
+        "If you want to become a frontend developer in 2023  but are unsure about which technologies, tools, frameworks, languages, and libraries to learn. You have come to the right place.."
     },
     {
-      url: "https://malshadissanayaka.blogspot.com/2022/02/of-online-education-online-education-is.html",
-      title: "Benefits of online education",
+      url: "https://medium.com/@admalsha11/the-power-of-rest-apis-3e07659978c3",
+      title: "The Power of REST APIs",
       description:
-        "Online education is a flexible instructional delivery system that encompasses any kind of learning that takes place via the Internet."
+        "In the modern digital landscape, software systems are becoming increasingly interconnected and reliant on seamless data exchange. REST APIs (Representational State Transfer Application Programming Interfaces) have emerged as a vital technology, enabling efficient communication and integration between software applications, platforms, and services. "
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -465,10 +472,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "This is my resume.",
-      subtitle: "You can Downlord it here.",
+      title: "Hey!. This is my resume.",
+      subtitle: "You can Download it here.",
       slides_url:
-        "https://drive.google.com/file/d/1EY_qICDjkJYsxRScapx-G92IXh13jG-p/view?usp=sharing"
+        "https://drive.google.com/file/d/1kRB2TOXBAVqrt1WENPp-5Y2wgJVn36ao/view?usp=sharing"
       //event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
